@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form>
+<div>
+    <label for="inputNome"></label>
+<!-- Value é o valor q o campo é inicializado, muda quando alguém 
+digita no campo
+Value tbm é o valor q o console recebe, serve para integrar com o bg -->
+    <input type="text" id="inputNome" value="Marina Fachinello"> 
+</div>
+
+<div>
+    <input type="checkbox" name ="" id="inputTermos">
+    <label for="inputTermos"> Sou maior de idade </label>
+</div>
+
+<div>
+    <label for="inputIdade">Idade</label>
+    <input type="number" id="inputIdade">
+</div>
+
+    <div>
+        <section>
+            <option>Teste 01</option>
+            <option>Teste 01</option>
+        </section>
+    </div>
+
+<!-- Dois inputs radio com nomes iguais deixam você selecionar só 1 dos 2-->
+<div>
+    <input type="radio" name="pessoa" id="inputPF" value="pessoa física" checked> 
+    <label for="inputPF"> Pessoa Física</label>
+</div>
+
+<div>
+    <input type="radio" name="pessoa" id="inputPJ" value="pessoaJuridica">
+    <label for=""> Pessoa Jurídica </label>
+</div>
+
+<div>
+    <label for=""> Observação </label>
+    <textarea id="inputObservacoes" cols="30" ></textarea>
+</div>
+
+
+<button type="submit" id="botaoCriarConta">Concordo com os termos</button>
+
+</form>
+    
+
+    <script src="./main.js"></script>
+    
+</body>
+</html>

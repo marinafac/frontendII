@@ -1,0 +1,32 @@
+*{
+ padding: 0;
+}
+
+.main-title{
+
+    color: aqua;
+    font-size: 24px;
+    letter-spacing: 2px;
+
+}
+
+.main-menu{
+
+    background-color: crimson;
+    padding: 12px;
+    position: absolute;
+    width: 200px;
+    height: 100vh;
+    right: -200px;
+    transition: .4s;
+
+    ul{
+        list-style: none;
+    }
+
+}
+
+.main-menu-opened{
+    right: 0;
+
+}
